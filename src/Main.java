@@ -21,6 +21,7 @@ public class Main {
 
             switch (opcion) {
                 case 1:
+
                     System.out.print("Valor de la moneda (20, 50, 100, 200, 500): ");
                     int valor = scanner.nextInt();
                     if (valor == 20) moneda20++;
@@ -28,8 +29,9 @@ public class Main {
                     else if (valor == 100) moneda100++;
                     else if (valor == 200) moneda200++;
                     else if (valor == 500) moneda500++;
-                    else System.out.println("Denominación no válida");
+                    else System.out.println("Valor no válida");
                     break;
+
                 case 2:
                     System.out.println("Monedas de $20: " + moneda20);
                     System.out.println("Monedas de $50: " + moneda50);
@@ -38,10 +40,12 @@ public class Main {
                     System.out.println("Monedas de $500: " + moneda500);
                     break;
                 case 3:
+
                     int total = moneda20 * 20 + moneda50 * 50 + moneda100 * 100 + moneda200 * 200 + moneda500 * 500;
                     System.out.println("Total ahorrado: " + total);
                     break;
                 case 4:
+
                     moneda20 = 0;
                     moneda50 = 0;
                     moneda100 = 0;
@@ -50,6 +54,7 @@ public class Main {
                     System.out.println("Alcancía vaciada");
                     break;
                 case 5:
+
                     System.out.println("Adiós");
                     break;
                 default:
