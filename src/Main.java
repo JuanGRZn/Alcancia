@@ -1,5 +1,8 @@
 import java.util.Scanner
 
+        //Juan Andres Garzon Malagon//
+        //Ejercicio alcancia//
+        //20-08-2024
 public class Main {
     public static void main(String[] args) {
         int moneda20 = 0, moneda50 = 0, moneda100 = 0, moneda200 = 0, moneda500 = 0;
